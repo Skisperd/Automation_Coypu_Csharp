@@ -1,0 +1,6 @@
+_automation_curso_one.Tests.LoginTest.ShouldSeeIncorrectPass
+_automation_curso_one.Tests.LoginTest.ShouldSeeIncorrectUser
+_automation_curso_one.Tests.LoginTest.ShouldSeeLoggedUser
+_automation_curso_one.Tests.LoginTest.ShouldSeeRequiredEmail
+_automation_curso_one.Tests.LoginTest.ShouldSeeRequiredPass
+_automation_curso_one.Tests.OnAirTest.ShowldBeHaveTitle
