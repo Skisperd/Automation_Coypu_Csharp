@@ -1,45 +1,21 @@
 using NUnit.Framework;
-using Coypu;
-using Coypu.Drivers.Selenium;
-using System.Threading;
-using System;
-using Automation_coypu.Pages;
+using AutomationCoypu.Pages;
+using AutomationCoypu.Common;
 
-namespace Automation_coypu.Tests
+
+namespace AutomationCoypu.Tests
 {
-
-    public class LoginTest
+    public class LoginTest : BaseTest
     {   
-        public BrowserSession browser;
-
         private LoginPage _login;
         private Sidebar _side;
 
         [SetUp]
-        public void Setup()
+        public void Start()
         {
-            var configs = new SessionConfiguration
-            {
-                AppHost = "http://ninjaplus-web",
-                Port = 5000,
-                SSL = false,
-                Driver = typeof(SeleniumWebDriver),
-                Browser = Coypu.Drivers.Browser.Chrome,
-                Timeout = TimeSpan.FromSeconds(10),
-            };
-
-            browser = new BrowserSession(configs);
-            browser.MaximiseWindow();
-            _login = new LoginPage(browser);
-            _side = new Sidebar(browser);
-
-        }
-
-        [TearDown]
-        public void Finish()
-        {
-            browser.Dispose();
-        }
+            _login = new LoginPage(Browser);
+            _side = new Sidebar(Browser);
+        }           
         [Test]
         [Category("Critical")]
         public void ShouldSeeLoggedUser()

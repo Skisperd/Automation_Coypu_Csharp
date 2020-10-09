@@ -4591,11 +4591,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\_Project_automation_create\\_automation_curso_one\\_automation_curso_one.csproj",
-      "projectName": "_automation_curso_one",
-      "projectPath": "D:\\Projects\\_Project_automation_create\\_automation_curso_one\\_automation_curso_one.csproj",
+      "projectUniqueName": "D:\\_Automation\\_Curse\\Automation_coypu\\Automation_coypu.csproj",
+      "projectName": "Automation_coypu",
+      "projectPath": "D:\\_Automation\\_Curse\\Automation_coypu\\Automation_coypu.csproj",
       "packagesPath": "C:\\Users\\tf.dias\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\_Project_automation_create\\_automation_curso_one\\obj\\",
+      "outputPath": "D:\\_Automation\\_Curse\\Automation_coypu\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

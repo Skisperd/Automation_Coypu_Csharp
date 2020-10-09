@@ -1,6 +1,6 @@
 using Coypu;
 
-namespace _automation_curso_one.Pages
+namespace AutomationCoypu.Pages
 {
     public class LoginPage
     {

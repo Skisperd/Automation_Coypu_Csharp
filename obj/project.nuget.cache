@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kk7BpdXmJr3IYKFohRCHlgdLB5kNy7+T+/1KQzO4Yu0MUiIOtdAgnK7MJ4NyOFJQlitMpl1wzzDhgJ0twlfXeQ==",
+  "dgSpecHash": "lrNldC55MLMmv+AYCdWBqSHa9d3NRFTxzn1HlGkMMnqWez8TAoz25CrT0lTgIzy9XQqMtLtzE3Spcg/Pdb16uQ==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\_Project_automation_create\\_automation_curso_one\\_automation_curso_one.csproj",
+  "projectFilePath": "D:\\_Automation\\_Curse\\Automation_coypu\\Automation_coypu.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tf.dias\\.nuget\\packages\\coypu\\3.1.1\\coypu.3.1.1.nupkg.sha512",
     "C:\\Users\\tf.dias\\.nuget\\packages\\microsoft.codecoverage\\16.4.0\\microsoft.codecoverage.16.4.0.nupkg.sha512",
