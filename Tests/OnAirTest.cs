@@ -7,7 +7,7 @@ namespace AutomationCoypu.Tests
     public class OnAirTest : BaseTest
     {
         [Test]
-        public void ShowldBeHaveTitle()
+        public void ShouldBeHaveTitle()
         {
             Browser.Visit("/login");
             Assert.AreEqual("Ninja+", Browser.Title);
