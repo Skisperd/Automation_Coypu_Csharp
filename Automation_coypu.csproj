@@ -16,6 +16,10 @@
     <Content Include="Images/**">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>   
     </Content>
+
+    <Content Include="Data/**">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>   
+    </Content>
   </ItemGroup>
 
 </Project>

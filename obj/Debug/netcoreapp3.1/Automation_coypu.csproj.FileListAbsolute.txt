@@ -98,3 +98,4 @@ D:\_Automation\_Curse\Automation_coypu\obj\Debug\netcoreapp3.1\Automation_coypu.
 D:\_Automation\_Curse\Automation_coypu\obj\Debug\netcoreapp3.1\Automation_coypu.genruntimeconfig.cache
 d:\_Automation\_Curse\Automation_coypu\bin\Debug\netcoreapp3.1\Images\resident_evill.jpg
 d:\_Automation\_Curse\Automation_coypu\bin\Debug\netcoreapp3.1\Npgsql.dll
+d:\_Automation\_Curse\Automation_coypu\bin\Debug\netcoreapp3.1\Data\data.sql

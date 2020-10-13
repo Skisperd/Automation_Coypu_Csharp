@@ -1,18 +1,31 @@
+using System;
+using System.IO;
 using Npgsql;
 
 namespace AutomationCoypu.Lib
 {
     public static class Database
-    {   
+    {
 
-        private static NpgsqlConnection Connection() 
-        { 
+        private static NpgsqlConnection Connection()
+        {
             var connectionString = "Host=pgdb;Username=postgres;Password=qaninja;Database=ninjaplus";
 
             var connection = new NpgsqlConnection(connectionString);
             connection.Open();
 
             return connection;
+        }
+
+        public static void InsertMovies()
+        {
+            var dataSql = Environment.CurrentDirectory + "\\Data\\data.sql";
+            var query = File.ReadAllText(dataSql);
+
+            var command = new NpgsqlCommand(query, Connection());
+            command.ExecuteReader();
+
+            Connection().Close();
         }
         public static void RemoveByTitle(string title)
         {
@@ -23,7 +36,7 @@ namespace AutomationCoypu.Lib
             command.ExecuteReader();
 
             Connection().Close();
-            
+
         }
     }
 }
