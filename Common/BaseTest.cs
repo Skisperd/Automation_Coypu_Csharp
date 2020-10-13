@@ -4,6 +4,8 @@ using Coypu.Drivers.Selenium;
 using System.Threading;
 using System;
 using AutomationCoypu.Pages;
+using Microsoft.Extensions.Configuration;
+using System.IO;
 
 namespace AutomationCoypu.Common
 {
@@ -14,17 +16,29 @@ namespace AutomationCoypu.Common
         [SetUp]
         public void Setup()
         {
-            var configs = new SessionConfiguration
+            var config = new ConfigurationBuilder()
+                .AddJsonFile("config.json")
+                .Build();
+
+            var sessionConfig = new SessionConfiguration
             {
                 AppHost = "http://ninjaplus-web",
                 Port = 5000,
                 SSL = false,
                 Driver = typeof(SeleniumWebDriver),
-                Browser = Coypu.Drivers.Browser.Chrome,
                 Timeout = TimeSpan.FromSeconds(10)
             };
 
-            Browser = new BrowserSession(configs);
+            if (config["browser"].Equals("chrome"))
+            {
+                sessionConfig.Browser = Coypu.Drivers.Browser.Chrome;
+            }
+
+            if (config["browser"].Equals("firefox"))
+            {
+                sessionConfig.Browser = Coypu.Drivers.Browser.Firefox;
+            }
+            Browser = new BrowserSession(sessionConfig);
 
             Browser.MaximiseWindow();
         }
@@ -34,10 +48,39 @@ namespace AutomationCoypu.Common
             var outputPath = Environment.CurrentDirectory;
             return outputPath + "\\Images\\";
         }
+        public void TakeScreenshot()
+        {   
+            var shotPath = Environment.CurrentDirectory + "\\Screenshots\\";
+            var resultId = TestContext.CurrentContext.Test.ID;
+
+
+            if(!Directory.Exists(shotPath))
+            {
+                Directory.CreateDirectory(shotPath);
+            }
+
+            var screenshot = ($"{shotPath}\\{resultId}.png");
+            Browser.SaveScreenshot(screenshot);
+            TestContext.AddTestAttachment(screenshot);
+        }
+
+
         [TearDown]
         public void Finish()
-        {
-            Browser.Dispose();
+        {   
+            try
+            {
+                TakeScreenshot();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Ocorreu um erro ao capturar o Screenshot");
+                throw new Exception(e.Message);
+            }
+            finally
+            {
+                Browser.Dispose();
+            }
         }
     }
 }

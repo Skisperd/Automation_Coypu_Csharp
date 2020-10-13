@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="afa61d8a-b94b-491d-9f05-b8a534c8ca8b" name="tf.dias@TF-DIAS02 2020-10-13 16:24:10" runUser="CORP\tf.dias" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2020-10-13T16:24:10.8801378-04:00" queuing="2020-10-13T16:24:10.8801394-04:00" start="2020-10-13T16:24:00.2260236-04:00" finish="2020-10-13T16:25:47.5940229-04:00" />
+  <TestSettings name="default" id="41e6ae17-026b-4ef2-afb8-b74d8515399d">
+    <Deployment runDeploymentRoot="tf.dias_TF-DIAS02_2020-10-13_16_24_10" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="fe877b7e-927a-48af-83c2-7dd9e9719806" testId="a88bc0f8-4160-0607-774a-ba113ddc722d" testName="ShouldDisplayNoMovieFound" computerName="TF-DIAS02" duration="00:00:11.7453540" startTime="2020-10-13T16:25:11.0000000-04:00" endTime="2020-10-13T16:25:22.0000000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe877b7e-927a-48af-83c2-7dd9e9719806">
+      <ResultFiles>
+        <ResultFile path="TF-DIAS02\0-1013.png" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="ef2db26a-8445-48ab-895b-da0c1dea8d31" testId="74185ea5-194c-b7c9-1ab7-5547a9ca8e8b" testName="ShouldSeeRequiredEmail" computerName="TF-DIAS02" duration="00:00:08.8529959" startTime="2020-10-13T16:24:29.0000000-04:00" endTime="2020-10-13T16:24:38.0000000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef2db26a-8445-48ab-895b-da0c1dea8d31">
+      <ResultFiles>
+        <ResultFile path="TF-DIAS02\0-1004.png" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="067a4ae1-d4e4-4822-b45c-40403ddccae1" testId="1ec71779-adaf-d838-0149-5b116fcaea3d" testName="ShouldFindUniqueMovie" computerName="TF-DIAS02" duration="00:00:12.1617440" startTime="2020-10-13T16:25:35.0000000-04:00" endTime="2020-10-13T16:25:47.0000000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="067a4ae1-d4e4-4822-b45c-40403ddccae1">
+      <ResultFiles>
+        <ResultFile path="TF-DIAS02\0-1011.png" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="e665f694-d7b9-41aa-bfa5-40795cba62b1" testId="9310c31c-a26d-bbdc-c669-2cd3da6ac808" testName="ShouldSeeLoggedUser" computerName="TF-DIAS02" duration="00:00:09.3153980" startTime="2020-10-13T16:24:19.0000000-04:00" endTime="2020-10-13T16:24:29.0000000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e665f694-d7b9-41aa-bfa5-40795cba62b1">
+      <ResultFiles>
+        <ResultFile path="TF-DIAS02\0-1001.png" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="ab10b25c-7386-4527-a94a-95a102e7b4c1" testId="711abb9d-4d5d-8fbf-118a-7d4099959534" testName="ShouldSeeIncorrectUser" computerName="TF-DIAS02" duration="00:00:09.0019230" startTime="2020-10-13T16:24:10.0000000-04:00" endTime="2020-10-13T16:24:19.0000000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab10b25c-7386-4527-a94a-95a102e7b4c1">
+      <ResultFiles>
+        <ResultFile path="TF-DIAS02\0-1003.png" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="150f0ea0-5be0-4ed8-b961-c928e2d74c02" testId="767378fe-3fcd-26a1-4cf2-bc55f08e7adf" testName="ShouldSeeRequiredPass" computerName="TF-DIAS02" duration="00:00:08.9021899" startTime="2020-10-13T16:24:38.0000000-04:00" endTime="2020-10-13T16:24:46.0000000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="150f0ea0-5be0-4ed8-b961-c928e2d74c02">
+      <ResultFiles>
+        <ResultFile path="TF-DIAS02\0-1005.png" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="06dc7e89-57a3-4c9a-9975-df10da0d7359" testId="624ebf3c-9263-d066-5edd-2510b36ab7ce" testName="ShouldSeeIncorrectPass" computerName="TF-DIAS02" duration="00:00:09.9896860" startTime="2020-10-13T16:24:00.0000000-04:00" endTime="2020-10-13T16:24:10.0000000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06dc7e89-57a3-4c9a-9975-df10da0d7359">
+      <ResultFiles>
+        <ResultFile path="TF-DIAS02\0-1002.png" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="bb673b04-92d9-4c88-8132-b0f099baef97" testId="2459d28e-a5ad-342f-5356-bbb4b962c7e1" testName="ShouldBeHaveTitle" computerName="TF-DIAS02" duration="00:00:08.6310270" startTime="2020-10-13T16:24:46.0000000-04:00" endTime="2020-10-13T16:24:55.0000000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb673b04-92d9-4c88-8132-b0f099baef97">
+      <ResultFiles>
+        <ResultFile path="TF-DIAS02\0-1007.png" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="03e4d79c-a31e-45e4-9621-93722803cf86" testId="6906daec-651c-27e2-b5b5-1b183f16902d" testName="ShouldSaveMovie" computerName="TF-DIAS02" duration="00:00:15.4914940" startTime="2020-10-13T16:24:55.0000000-04:00" endTime="2020-10-13T16:25:11.0000000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="03e4d79c-a31e-45e4-9621-93722803cf86">
+      <ResultFiles>
+        <ResultFile path="TF-DIAS02\0-1009.png" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="a8105dbf-a7d2-47f1-a8c9-3116ef753fc0" testId="f5dceb8f-9f8a-ba6a-982a-3eb9861afeab" testName="ShouldFindMovies" computerName="TF-DIAS02" duration="00:00:12.2730029" startTime="2020-10-13T16:25:22.0000000-04:00" endTime="2020-10-13T16:25:35.0000000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8105dbf-a7d2-47f1-a8c9-3116ef753fc0">
+      <ResultFiles>
+        <ResultFile path="TF-DIAS02\0-1012.png" />
+      </ResultFiles>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ShouldFindMovies" storage="d:\_automation\_curse\automation_coypu\bin\debug\netcoreapp3.1\automation_coypu.dll" id="f5dceb8f-9f8a-ba6a-982a-3eb9861afeab">
+      <Execution id="a8105dbf-a7d2-47f1-a8c9-3116ef753fc0" />
+      <TestMethod codeBase="D:\_Automation\_Curse\Automation_coypu\bin\Debug\netcoreapp3.1\Automation_coypu.dll" adapterTypeName="executor://nunit3testexecutor/" className="AutomationCoypu.Tests.SearchMovieTests" name="ShouldFindMovies" />
+    </UnitTest>
+    <UnitTest name="ShouldBeHaveTitle" storage="d:\_automation\_curse\automation_coypu\bin\debug\netcoreapp3.1\automation_coypu.dll" id="2459d28e-a5ad-342f-5356-bbb4b962c7e1">
+      <Execution id="bb673b04-92d9-4c88-8132-b0f099baef97" />
+      <TestMethod codeBase="D:\_Automation\_Curse\Automation_coypu\bin\Debug\netcoreapp3.1\Automation_coypu.dll" adapterTypeName="executor://nunit3testexecutor/" className="AutomationCoypu.Tests.OnAirTest" name="ShouldBeHaveTitle" />
+    </UnitTest>
+    <UnitTest name="ShouldSeeIncorrectPass" storage="d:\_automation\_curse\automation_coypu\bin\debug\netcoreapp3.1\automation_coypu.dll" id="624ebf3c-9263-d066-5edd-2510b36ab7ce">
+      <Execution id="06dc7e89-57a3-4c9a-9975-df10da0d7359" />
+      <TestMethod codeBase="D:\_Automation\_Curse\Automation_coypu\bin\Debug\netcoreapp3.1\Automation_coypu.dll" adapterTypeName="executor://nunit3testexecutor/" className="AutomationCoypu.Tests.LoginTest" name="ShouldSeeIncorrectPass" />
+    </UnitTest>
+    <UnitTest name="ShouldSeeRequiredEmail" storage="d:\_automation\_curse\automation_coypu\bin\debug\netcoreapp3.1\automation_coypu.dll" id="74185ea5-194c-b7c9-1ab7-5547a9ca8e8b">
+      <Execution id="ef2db26a-8445-48ab-895b-da0c1dea8d31" />
+      <TestMethod codeBase="D:\_Automation\_Curse\Automation_coypu\bin\Debug\netcoreapp3.1\Automation_coypu.dll" adapterTypeName="executor://nunit3testexecutor/" className="AutomationCoypu.Tests.LoginTest" name="ShouldSeeRequiredEmail" />
+    </UnitTest>
+    <UnitTest name="ShouldFindUniqueMovie" storage="d:\_automation\_curse\automation_coypu\bin\debug\netcoreapp3.1\automation_coypu.dll" id="1ec71779-adaf-d838-0149-5b116fcaea3d">
+      <Execution id="067a4ae1-d4e4-4822-b45c-40403ddccae1" />
+      <TestMethod codeBase="D:\_Automation\_Curse\Automation_coypu\bin\Debug\netcoreapp3.1\Automation_coypu.dll" adapterTypeName="executor://nunit3testexecutor/" className="AutomationCoypu.Tests.SearchMovieTests" name="ShouldFindUniqueMovie" />
+    </UnitTest>
+    <UnitTest name="ShouldDisplayNoMovieFound" storage="d:\_automation\_curse\automation_coypu\bin\debug\netcoreapp3.1\automation_coypu.dll" id="a88bc0f8-4160-0607-774a-ba113ddc722d">
+      <Execution id="fe877b7e-927a-48af-83c2-7dd9e9719806" />
+      <TestMethod codeBase="D:\_Automation\_Curse\Automation_coypu\bin\Debug\netcoreapp3.1\Automation_coypu.dll" adapterTypeName="executor://nunit3testexecutor/" className="AutomationCoypu.Tests.SearchMovieTests" name="ShouldDisplayNoMovieFound" />
+    </UnitTest>
+    <UnitTest name="ShouldSeeRequiredPass" storage="d:\_automation\_curse\automation_coypu\bin\debug\netcoreapp3.1\automation_coypu.dll" id="767378fe-3fcd-26a1-4cf2-bc55f08e7adf">
+      <Execution id="150f0ea0-5be0-4ed8-b961-c928e2d74c02" />
+      <TestMethod codeBase="D:\_Automation\_Curse\Automation_coypu\bin\Debug\netcoreapp3.1\Automation_coypu.dll" adapterTypeName="executor://nunit3testexecutor/" className="AutomationCoypu.Tests.LoginTest" name="ShouldSeeRequiredPass" />
+    </UnitTest>
+    <UnitTest name="ShouldSeeIncorrectUser" storage="d:\_automation\_curse\automation_coypu\bin\debug\netcoreapp3.1\automation_coypu.dll" id="711abb9d-4d5d-8fbf-118a-7d4099959534">
+      <Execution id="ab10b25c-7386-4527-a94a-95a102e7b4c1" />
+      <TestMethod codeBase="D:\_Automation\_Curse\Automation_coypu\bin\Debug\netcoreapp3.1\Automation_coypu.dll" adapterTypeName="executor://nunit3testexecutor/" className="AutomationCoypu.Tests.LoginTest" name="ShouldSeeIncorrectUser" />
+    </UnitTest>
+    <UnitTest name="ShouldSeeLoggedUser" storage="d:\_automation\_curse\automation_coypu\bin\debug\netcoreapp3.1\automation_coypu.dll" id="9310c31c-a26d-bbdc-c669-2cd3da6ac808">
+      <Execution id="e665f694-d7b9-41aa-bfa5-40795cba62b1" />
+      <TestMethod codeBase="D:\_Automation\_Curse\Automation_coypu\bin\Debug\netcoreapp3.1\Automation_coypu.dll" adapterTypeName="executor://nunit3testexecutor/" className="AutomationCoypu.Tests.LoginTest" name="ShouldSeeLoggedUser" />
+    </UnitTest>
+    <UnitTest name="ShouldSaveMovie" storage="d:\_automation\_curse\automation_coypu\bin\debug\netcoreapp3.1\automation_coypu.dll" id="6906daec-651c-27e2-b5b5-1b183f16902d">
+      <Execution id="03e4d79c-a31e-45e4-9621-93722803cf86" />
+      <TestMethod codeBase="D:\_Automation\_Curse\Automation_coypu\bin\Debug\netcoreapp3.1\Automation_coypu.dll" adapterTypeName="executor://nunit3testexecutor/" className="AutomationCoypu.Tests.SaveMovieTest" name="ShouldSaveMovie" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="a88bc0f8-4160-0607-774a-ba113ddc722d" executionId="fe877b7e-927a-48af-83c2-7dd9e9719806" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="74185ea5-194c-b7c9-1ab7-5547a9ca8e8b" executionId="ef2db26a-8445-48ab-895b-da0c1dea8d31" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1ec71779-adaf-d838-0149-5b116fcaea3d" executionId="067a4ae1-d4e4-4822-b45c-40403ddccae1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9310c31c-a26d-bbdc-c669-2cd3da6ac808" executionId="e665f694-d7b9-41aa-bfa5-40795cba62b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="711abb9d-4d5d-8fbf-118a-7d4099959534" executionId="ab10b25c-7386-4527-a94a-95a102e7b4c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="767378fe-3fcd-26a1-4cf2-bc55f08e7adf" executionId="150f0ea0-5be0-4ed8-b961-c928e2d74c02" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="624ebf3c-9263-d066-5edd-2510b36ab7ce" executionId="06dc7e89-57a3-4c9a-9975-df10da0d7359" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2459d28e-a5ad-342f-5356-bbb4b962c7e1" executionId="bb673b04-92d9-4c88-8132-b0f099baef97" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6906daec-651c-27e2-b5b5-1b183f16902d" executionId="03e4d79c-a31e-45e4-9621-93722803cf86" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5dceb8f-9f8a-ba6a-982a-3eb9861afeab" executionId="a8105dbf-a7d2-47f1-a8c9-3116ef753fc0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Resultados que não estão em uma lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos os resultados carregados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="10" executed="10" passed="10" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 3.15.1.0: Test execution started&#xD;
+Running all tests in D:\_Automation\_Curse\Automation_coypu\bin\Debug\netcoreapp3.1\Automation_coypu.dll&#xD;
+   NUnit3TestExecutor converted 10 of 10 NUnit test cases&#xD;
+NUnit Adapter 3.15.1.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

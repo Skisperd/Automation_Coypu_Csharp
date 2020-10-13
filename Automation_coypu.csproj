@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="Coypu" Version="3.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0-rc.2.20475.5" />
     <PackageReference Include="Npgsql" Version="4.1.2" />
     <PackageReference Include="nunit" Version="3.12.0" />
     <PackageReference Include="NUnit3TestAdapter" Version="3.15.1" />
@@ -18,6 +19,10 @@
     </Content>
 
     <Content Include="Data/**">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>   
+    </Content>
+
+    <Content Include="config.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>   
     </Content>
   </ItemGroup>
