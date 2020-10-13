@@ -57,5 +57,9 @@ namespace AutomationCoypu.Pages
             UploadCover(movie.Cover);
             _browser.ClickButton("Cadastrar");
         }
+        public bool HasMovie(string title)
+        {
+            return _browser.FindCss("table tbody tr", text: title).Exists();
+        }
     }
 }
