@@ -37,7 +37,7 @@ namespace AutomationCoypu.Tests
 
             _movie.Add();
             _movie.Save(movieData);
-            Thread.Sleep(15000);
+            Thread.Sleep(500);
         }
 
     }
