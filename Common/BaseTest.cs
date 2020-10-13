@@ -28,6 +28,12 @@ namespace AutomationCoypu.Common
 
             Browser.MaximiseWindow();
         }
+
+        public string CoverPath()
+        {
+            var outputPath = Environment.CurrentDirectory;
+            return outputPath + "\\Images\\";
+        }
         [TearDown]
         public void Finish()
         {

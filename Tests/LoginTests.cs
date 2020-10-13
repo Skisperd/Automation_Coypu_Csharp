@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using AutomationCoypu.Pages;
 using AutomationCoypu.Common;
-
+using System.Threading;
 
 namespace AutomationCoypu.Tests
 {
@@ -21,7 +21,9 @@ namespace AutomationCoypu.Tests
         public void ShouldSeeLoggedUser()
         {
             _login.With("tiago.dias@sidia.com", "123456");
+            Thread.Sleep(1000);
             Assert.AreEqual("tiago", _side.LoggedUser());
+
         }
         [Test]
         public void  ShouldSeeIncorrectPass()

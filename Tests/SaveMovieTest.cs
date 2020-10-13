@@ -2,6 +2,8 @@ using NUnit.Framework;
 using AutomationCoypu.Pages;
 using AutomationCoypu.Common;
 using System.Threading;
+using AutomationCoypu.Models;
+using System;
 
 namespace AutomationCoypu.Tests
 {
@@ -19,12 +21,23 @@ namespace AutomationCoypu.Tests
             _login.With("tiago.dias@sidia.com", "123456");
         }
         [Test]
+        
         public void ShouldSaveMovie()
         {
-            _movie.Add();
-            _movie.Save("Resident Evil");
-            Thread.Sleep(5000);
+            var movieData = new MovieModel()
+            {
+                Title = "Resident Evil",
+                Status = "Disponível",
+                Year = "2000",
+                ReleaseDate = "01/05/2002",
+                Cast = {"Tiago", "Felipe", "Dias", "Oliveira"},
+                Plot = "A missão é fazer isso funfar",
+                Cover = CoverPath() + "resident_evil.jpg"
+            };          
 
+            _movie.Add();
+            _movie.Save(movieData);
+            Thread.Sleep(15000);
         }
 
     }
