@@ -4,6 +4,7 @@ using AutomationCoypu.Common;
 using System.Threading;
 using AutomationCoypu.Models;
 using System;
+using AutomationCoypu.Lib;
 
 namespace AutomationCoypu.Tests
 {
@@ -34,6 +35,8 @@ namespace AutomationCoypu.Tests
                 Plot = "A missão é fazer isso funfar",
                 Cover = CoverPath() + "resident_evil.jpg"
             };          
+
+            Database.RemoveByTitle(movieData.Title);
 
             _movie.Add();
             _movie.Save(movieData);

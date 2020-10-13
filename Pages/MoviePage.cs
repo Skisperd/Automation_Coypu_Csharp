@@ -41,7 +41,7 @@ namespace AutomationCoypu.Pages
         {
             var jsScript = "document.getElementById('upcover').classList.remove('el-upload__input');";
             _browser.ExecuteScript(jsScript);
-            
+
             _browser.FindCss("#upcover").SendKeys(cover);
         }
 
@@ -55,8 +55,7 @@ namespace AutomationCoypu.Pages
             InputCast(movie.Cast);
             _browser.FindCss("textarea[name=overview]").SendKeys(movie.Plot);
             UploadCover(movie.Cover);
-
-
+            _browser.ClickButton("Cadastrar");
         }
     }
 }
